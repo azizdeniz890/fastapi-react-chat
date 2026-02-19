@@ -5,6 +5,8 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
+![App Screenshot](docs/screenshot.png)
+
 A powerful, full-stack AI Chat application built to master modern web development technologies. This project seamlessly integrates a high-performance **FastAPI** backend with a dynamic **React** frontend, utilizing **PostgreSQL** for robust data persistence and **OpenAI** for intelligent responses.
 
 Designed with **N-Layer Architecture**, this project serves as a comprehensive example of building scalable, maintainable, and production-ready software systems.
