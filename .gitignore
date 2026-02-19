@@ -22,3 +22,5 @@ frontend/coverage/
 .vscode/
 .idea/
 *.swp
+
+baslat.bat
