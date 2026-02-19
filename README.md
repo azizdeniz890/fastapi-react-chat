@@ -94,18 +94,23 @@ Just double-click **`baslat.bat`** in the root directory!
 
 ```
 fastapi-react-chat/
-├── app/                  # Backend Application
-│   ├── api/              # API Endpoints
-│   ├── core/             # Configuration & Security
-│   ├── services/         # Business Logic
-│   ├── models/           # Database Models
-│   └── main.py           # Entry Point
+├── app/                  # Backend Application (N-Layer Architecture)
+│   ├── api/              # API Layer (Endpoints & Schemas)
+│   ├── auth/             # Authentication (JWT & Rate Limiting)
+│   ├── config/           # Configuration Settings
+│   ├── data/             # Data Access Layer (DAO & Database Connection)
+│   ├── domain/           # Domain Entities & Models
+│   ├── infra/            # Infrastructure (OpenAI Client)
+│   ├── service/          # Business Logic Layer
+│   └── main.py           # Application Entry Point
 ├── frontend/             # React Frontend
-│   ├── src/              # Components & Pages
-│   └── public/           # Static Assets
-├── static/               # Compiled Frontend (Served by FastAPI)
+│   ├── src/              # Components, Hooks, & Styles
+│   └── index.html        # Entry HTML
+├── static/               # Compiled Frontend Assets
+├── docs/                 # Documentation Images
 ├── requirements.txt      # Python Dependencies
-└── baslat.bat            # One-Click Startup Script
+├── baslat.bat            # One-Click Startup Script
+└── README.md             # Project Documentation
 ```
 
 ---
